@@ -1,0 +1,59 @@
+╔══════════════════════════════════════════════════════════════╗
+║         HOW TO SEE YOUR OUTPUT SCREEN                        ║
+╚══════════════════════════════════════════════════════════════╝
+
+⚠️  STEP 1: INSTALL NODE.JS (Required)
+────────────────────────────────────────
+1. Go to: https://nodejs.org/
+2. Download "LTS" version (Long Term Support)
+3. Install it (use default settings)
+4. RESTART CURSOR completely
+
+✓  STEP 2: VERIFY INSTALLATION
+────────────────────────────────────────
+Open Terminal in Cursor (Ctrl + `) and type:
+   node --version
+   npm --version
+
+You should see version numbers. If not, Node.js isn't installed correctly.
+
+✓  STEP 3: INSTALL DEPENDENCIES
+────────────────────────────────────────
+In Terminal, type:
+   npm install
+
+Wait for it to finish (1-2 minutes)
+
+✓  STEP 4: START THE SERVER
+────────────────────────────────────────
+In Terminal, type:
+   npm run dev
+
+OR double-click: START.bat
+
+✓  STEP 5: OPEN IN BROWSER
+────────────────────────────────────────
+Look in the terminal for:
+   ➜  Local:   http://localhost:8080/
+
+Click that URL or copy/paste it into your browser!
+
+═══════════════════════════════════════════════════════════════
+
+ALTERNATIVE: Use Cursor's Debug Panel
+────────────────────────────────────────
+1. Press F5
+2. Select "Launch Vite Dev Server"
+3. Terminal will show the server starting
+4. Open http://localhost:8080 in browser
+
+═══════════════════════════════════════════════════════════════
+
+WHERE TO SEE OUTPUT:
+────────────────────────────────────────
+✓ Terminal: Bottom panel (shows server status)
+✓ Browser: http://localhost:8080 (your app)
+✓ Problems Panel: Ctrl+Shift+M (errors)
+
+═══════════════════════════════════════════════════════════════
+

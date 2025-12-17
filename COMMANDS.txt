@@ -1,0 +1,28 @@
+═══════════════════════════════════════════════════════
+  COPY & PASTE THESE COMMANDS IN ORDER
+═══════════════════════════════════════════════════════
+
+STEP 1: Verify Node.js (after restarting Cursor)
+──────────────────────────────────────────────────────
+node --version
+npm --version
+
+STEP 2: Go to project folder
+──────────────────────────────────────────────────────
+cd C:\Users\ZAHRA\Downloads\FCMG
+
+STEP 3: Install dependencies (first time only)
+──────────────────────────────────────────────────────
+npm install
+
+STEP 4: Start the server
+──────────────────────────────────────────────────────
+npm run dev
+
+STEP 5: Open in browser
+──────────────────────────────────────────────────────
+Look for: http://localhost:8080
+Click it or copy to browser!
+
+═══════════════════════════════════════════════════════
+
