@@ -5,7 +5,6 @@ Smart Sales & Inventory Brain is an AI-powered decision intelligence platform de
 
 The platform is built as part of the EY Techathon and demonstrates how AI, analytics, and modern dashboards can solve real-world supply chain and sales challenges.
 
----
 
 ## Problem Statement
 FMCG companies face multiple operational challenges such as:
@@ -17,7 +16,6 @@ FMCG companies face multiple operational challenges such as:
 
 These issues lead to increased costs, lost revenue, and inefficient operations.
 
----
 
 ## Proposed Solution
 The Smart Sales & Inventory Brain addresses these challenges through:
@@ -29,7 +27,6 @@ The Smart Sales & Inventory Brain addresses these challenges through:
 
 The system moves beyond static dashboards to proactive, insight-driven decision support.
 
----
 
 ## Key Features
 - 📈 Demand Forecasting (SKU × Region × Time)
@@ -39,8 +36,7 @@ The system moves beyond static dashboards to proactive, insight-driven decision 
 - 💬 Conversational AI Assistant
 - 🚨 Alerts & Actionable Recommendations
 
----
-
+  
 ## Technology Stack
 - **Frontend:** HTML, CSS, JavaScript (Prototype)
 - **Backend:** Python, FastAPI (Planned)
@@ -57,13 +53,10 @@ The solution follows a modular and scalable architecture with:
 - User-facing dashboards and chat interface for interaction
 - Secure and extensible backend services
 
----
 
 ## Project Status
 🚧 Prototype / Concept Demonstration Stage  
 This repository contains wireframes, flow diagrams, sample data, and frontend prototypes created for evaluation and demonstration purposes.
-
----
 
 ## Intended Users
 - Sales Managers
@@ -72,16 +65,12 @@ This repository contains wireframes, flow diagrams, sample data, and frontend pr
 - Business & Strategy Teams
 - Senior Management
 
----
-
 ## Future Enhancements
 - Integration with real ERP and distributor systems
 - Advanced ML models for higher forecast accuracy
 - Real-time alerting and notification services
 - Role-based access control and authentication
 - Full-scale cloud deployment
-
----
 
 ## Team & Context
 This project was developed as part of **EY Techathon (FMCG Track)** to demonstrate innovative use of AI and analytics in solving large-scale business problems.
