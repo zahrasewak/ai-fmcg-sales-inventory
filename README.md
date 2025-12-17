@@ -1,73 +1,87 @@
-# Welcome to your Lovable project
+# Smart Sales & Inventory Brain (FMCG – Asian Paints)
 
-## Project info
+## Overview
+Smart Sales & Inventory Brain is an AI-powered decision intelligence platform designed for the FMCG sector, with a focus on paints and coatings. The solution helps organizations improve demand forecasting, inventory planning, and business decision-making by transforming raw data into actionable insights.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+The platform is built as part of the EY Techathon and demonstrates how AI, analytics, and modern dashboards can solve real-world supply chain and sales challenges.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## Problem Statement
+FMCG companies face multiple operational challenges such as:
+- Inaccurate demand forecasting across regions
+- Stockouts and excess inventory (deadstock)
+- Lack of real-time visibility into inventory health
+- Delayed and manual decision-making
+- Difficulty in converting data into actionable insights
 
-**Use Lovable**
+These issues lead to increased costs, lost revenue, and inefficient operations.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## Proposed Solution
+The Smart Sales & Inventory Brain addresses these challenges through:
+- AI-based demand forecasting at SKU and regional level
+- Inventory health monitoring including ageing and shelf-life risks
+- Geo heatmaps to visualize regional demand and supply gaps
+- Automated alerts and recommendations for faster actions
+- A conversational AI assistant to query insights in natural language
 
-**Use your preferred IDE**
+The system moves beyond static dashboards to proactive, insight-driven decision support.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Key Features
+- 📈 Demand Forecasting (SKU × Region × Time)
+- 📦 Inventory Optimization & Stock Risk Detection
+- ⏳ Shelf-Life & Ageing Inventory Monitoring
+- 🗺️ Geo Demand Heatmaps
+- 💬 Conversational AI Assistant
+- 🚨 Alerts & Actionable Recommendations
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Technology Stack
+- **Frontend:** HTML, CSS, JavaScript (Prototype)
+- **Backend:** Python, FastAPI (Planned)
+- **AI & Analytics:** Machine Learning models, Time-series forecasting, NLP
+- **Databases:** MongoDB / PostgreSQL (Planned)
+- **Deployment:** Cloud-ready architecture (Docker, AWS/Azure – Planned)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Architecture & Design
+The solution follows a modular and scalable architecture with:
+- Centralized data layer for sales, inventory, and SKU data
+- AI analytics layer for forecasting and optimization
+- User-facing dashboards and chat interface for interaction
+- Secure and extensible backend services
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## Project Status
+🚧 Prototype / Concept Demonstration Stage  
+This repository contains wireframes, flow diagrams, sample data, and frontend prototypes created for evaluation and demonstration purposes.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## Intended Users
+- Sales Managers
+- Distributors
+- Supply Chain & Inventory Teams
+- Business & Strategy Teams
+- Senior Management
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## Future Enhancements
+- Integration with real ERP and distributor systems
+- Advanced ML models for higher forecast accuracy
+- Real-time alerting and notification services
+- Role-based access control and authentication
+- Full-scale cloud deployment
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## Team & Context
+This project was developed as part of **EY Techathon (FMCG Track)** to demonstrate innovative use of AI and analytics in solving large-scale business problems.
